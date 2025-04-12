@@ -1,0 +1,9 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+numpy==1.26.4
+pandas==2.2.3
+tensorflow==2.17.0
+scikit-learn==1.5.1  # Match the training version
+Pillow==10.4.0
+python-multipart==0.0.9
+joblib==1.4.2
