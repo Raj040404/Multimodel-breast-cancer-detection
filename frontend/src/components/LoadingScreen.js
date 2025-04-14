@@ -1,9 +1,12 @@
 import React from 'react';
 
-const LoadingScreen = () => (
-  <div className="loading-screen">
-    <div className="loader"></div>
-  </div>
-);
+const LoadingScreen = () => {
+  return (
+    <div className="loading-container">
+      <div className="loader"></div>
+      <span className="loading-text">Processing...</span>
+    </div>
+  );
+};
 
 export default LoadingScreen;
